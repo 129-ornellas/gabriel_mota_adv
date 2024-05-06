@@ -1,8 +1,40 @@
-header#cabecalho{
-    background-color: #131f3e;
+.home{
+    background: url(./GabrielHome.png);
+    background-repeat: no-repeat;
     width: 100%;
-    height: 70px;
-    margin: 0;
-    color: #ffffff;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    /* position: fixed; */
+
+}
+.logo-home{
+    background-image:url(./Logo.png);
+    width:40vh;
+    height:40vh;
+
 }
 
+
+/* 
+@media (min-width: 576px) { 
+    .logo-home{
+        width:"623px";
+        height:"750px";
+    } 
+}
+@media (min-width: 768px) { 
+    .logo-home{
+        width:"623px";
+        height:"750px";
+    } 
+}
+@media (min-width: 992px) {  
+    .logo-home{
+        width:"623px";
+        height:"750px";
+    }
+}
+@media (min-width: 1200px) { 
+    
+ } */
