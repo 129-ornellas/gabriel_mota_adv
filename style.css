@@ -1,13 +1,24 @@
-.home{
-    background: url(./GabrielHome.png);
+.navbar {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Certifica-se de que a navbar fique acima de outros elementos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+.home {
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(./img/GabrielHome.png);
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100vh; /* Ocupa toda a altura da tela */
     background-position: center;
-    background-size: cover;
-    /* position: fixed; */
-
-}
+    background-size: cover; /* Cobre toda a área */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
+  }
 .logo-home{
     background-image:url(./Logo.png);
     width:40vh;
@@ -15,26 +26,31 @@
 
 }
 
+.titulo-home{
+    width: 33%;
+    color: #fff;
+    text-align: left;
+    padding-left: 11vh;
+}
 
-/* 
-@media (min-width: 576px) { 
-    .logo-home{
-        width:"623px";
-        height:"750px";
-    } 
+.botao-titulo-home{
+    padding-left: 8vh;
 }
-@media (min-width: 768px) { 
-    .logo-home{
-        width:"623px";
-        height:"750px";
+
+@media (max-width: 576px) { 
+    .titulo-home{
+        width: 100%;
+        padding-left: 4vh;
     } 
-}
-@media (min-width: 992px) {  
-    .logo-home{
-        width:"623px";
-        height:"750px";
+    .botao-titulo-home{
+        padding-left: 10vh;
     }
 }
-@media (min-width: 1200px) { 
-    
- } */
+/* 
+@media (max-width: 768px) { 
+    .logo-home{
+        width:"623px";
+        height:"750px";
+    } 
+}
+*/
