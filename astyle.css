@@ -5,6 +5,9 @@
     z-index: 1000; /* Certifica-se de que a navbar fique acima de outros elementos */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
+
+
+/* section home */
 .home {
     background: 
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
@@ -20,10 +23,9 @@
     text-align: center; /* Centraliza o texto */
   }
 .logo-home{
-    background-image:url(./Logo.png);
+    background-image:url(./img/Logo.png);
     width:40vh;
     height:40vh;
-
 }
 
 .titulo-home{
@@ -40,17 +42,49 @@
 @media (max-width: 576px) { 
     .titulo-home{
         width: 100%;
-        padding-left: 4vh;
     } 
     .botao-titulo-home{
         padding-left: 10vh;
     }
 }
-/* 
-@media (max-width: 768px) { 
-    .logo-home{
-        width:"623px";
-        height:"750px";
-    } 
+
+
+/* section servico */
+.servico{
+    background: #6c625d;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-*/
+
+.titulo-servico{
+    text-align: center;
+    padding: 1vh;
+}
+
+.info-pai-servico{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 45vh;
+    width: 100vh;
+}
+
+.info-servico{
+    width: 40vh;
+    height: 20vh;
+    background: white;
+    border: 1px solid white;
+    border-radius: 1vh;
+}
+
+@media (max-width: 576px) { 
+    .info-servico{
+        width: 20vh;
+        height: 10vh;
+        background: white;
+        border: 1px solid white;
+        border-radius: 1vh;
+    }
+}

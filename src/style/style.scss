@@ -1,0 +1,82 @@
+$font-white: #e0e0e0;
+$font-black: #000000;
+
+.navbar {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Certifica-se de que a navbar fique acima de outros elementos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+#home {
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(../../img/GabrielHome.png);
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Ocupa toda a altura da tela */
+    background-position: center;
+    background-size: cover; /* Cobre toda a área */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
+    .titulo-home{
+        color: $font-white;
+        width: 33%;
+        text-align: left;
+        padding-left: 11vh;
+    }
+    .logo-home{
+        background-image:url(./img/Logo.png);
+        width:40vh;
+        height:40vh;
+    }
+}
+#servico{
+    width: 100%;
+    height: 100vh;
+    background-color: #131010;
+    color: $font-white;
+    .titulo-servico{
+        padding-top: 6vh;
+        text-align: center;
+    }
+    .info-pai-servico{
+        background-color: $font-black;
+    }
+   
+}
+.servico-card {
+    padding-top: 7vh;
+}
+.card{
+    background-color: #fff;
+}
+.botao-titulo-servicos{
+    text-align: center;
+}
+
+#sobre{
+    background-color: #aba59d;
+    width: 100%;
+    height: 100vh;
+    .titulo-sobre{
+        padding-top:6vh;
+        text-align: center;
+    }
+}
+.div-imagem{
+    text-align: center;
+}
+.sobre-imagem{
+    border-radius: 100%;
+    background-position: center;
+    width: 363px;
+    height: 363px;
+}
+.sobre-informacoes{
+    text-align: center;
+    padding-top: 4vh;
+}
+// criar estilos para os titulos
