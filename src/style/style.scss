@@ -1,5 +1,14 @@
 $font-white: #e0e0e0;
 $font-black: #000000;
+.sessao_inicio{
+    width: 100%;
+    background-color: #131010;
+    color: $font-white;
+}
+.sessao_titulo{
+    padding-top:6vh;
+    text-align: center;
+}
 
 .navbar {
     position:fixed;
@@ -34,22 +43,16 @@ $font-black: #000000;
     }
 }
 #servico{
-    width: 100%;
-    height: 100vh;
-    background-color: #131010;
-    color: $font-white;
+    @extend .sessao_inicio;
     .titulo-servico{
         padding-top: 6vh;
-        text-align: center;
+        text-align: center; 
     }
     .info-pai-servico{
         background-color: $font-black;
     }
    
 }
-// .servico-card {
-//     padding-top: 4vh;
-// }
 .card{
     background-color: #fff;
 }
@@ -58,9 +61,7 @@ $font-black: #000000;
 }
 
 #sobre{
-    background-color: #aba59d;
-    width: 100%;
-    height: 100vh;
+    @extend .sessao_inicio;
     .titulo-sobre{
         padding-top:6vh;
         text-align: center;
@@ -77,6 +78,16 @@ $font-black: #000000;
 }
 .sobre-informacoes{
     text-align: center;
-    padding-top: 4vh;
+    // padding-top: 4vh;
+}
+
+#contatos{
+    @extend .sessao_inicio;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+     #aa715b !important;
+    .titulo-sobre{
+        padding-top:6vh;
+        text-align: center;
+    }
 }
 // criar estilos para os titulos
