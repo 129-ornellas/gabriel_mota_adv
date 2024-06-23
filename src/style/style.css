@@ -31,9 +31,7 @@
 }
 #home .titulo-home {
   color: #e0e0e0;
-  width: 33%;
   text-align: left;
-  padding-left: 11vh;
 }
 #home .logo-home {
   background-image: url(./img/Logo.png);
