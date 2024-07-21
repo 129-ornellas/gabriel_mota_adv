@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .sessao_inicio, #contatos, #sobre, #servico {
   width: 100%;
   background-color: #131010;
@@ -21,13 +20,13 @@
 #home {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/GabrielHome.png);
   background-repeat: no-repeat;
-  min-height: 100vh; /* Ocupa toda a altura da tela */
+  min-height: 100vh;
   background-position: center;
-  background-size: cover; /* Cobre toda a área */
+  background-size: cover;
   display: flex;
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: space-between; /* Centraliza horizontalmente */
-  text-align: center; /* Centraliza o texto */
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
 #home .titulo-home {
   color: #e0e0e0;
@@ -75,12 +74,13 @@
   text-align: center;
 }
 
-#contatos {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #aa715b !important;
-}
 #contatos .titulo-sobre {
   padding-top: 6vh;
   text-align: center;
+}
+
+.icones-ancora-contatos {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
