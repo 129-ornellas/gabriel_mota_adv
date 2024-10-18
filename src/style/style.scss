@@ -16,6 +16,12 @@ $font-black: #000000;
     width: 100%;
     z-index: 1000; /* Certifica-se de que a navbar fique acima de outros elementos */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.navbar-top{
+    background-color: #0a0a25;
+    padding: 0px;
 }
 
 #home {

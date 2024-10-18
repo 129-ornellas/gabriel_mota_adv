@@ -17,6 +17,11 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.navbar-top {
+  background-color: #0a0a25;
+  padding: 0px;
+}
+
 #home {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/GabrielHome.png);
   background-repeat: no-repeat;
